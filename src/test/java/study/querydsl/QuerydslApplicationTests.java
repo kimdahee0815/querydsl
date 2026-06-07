@@ -558,4 +558,18 @@ class QuerydslApplicationTests {
 		//when
 		//then
 	}
+
+	@Test
+	public void findDtoByQueryProjection() throws Exception {
+	    // given
+//		List<MemberDto> result = queryFactory
+//				.select(new QMemberDto(member.username, member.age))
+//				.from(member)
+//				.fetch();
+//		//when
+//		for (MemberDto memberDto : result) {
+//			System.out.println("memberDto = "+ memberDto);
+//		}
+	    //then
+	}
 }
